@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang=es>
+
+<head>
+  <meta charset=utf-8>
+  <title>CRUD de Países</title>
+  <link rel=stylesheet href=css/estilo.css />
+</head>
+
+<body>
+  <h1>CRUD Países</h1>
+  <input type=text id=iNombre placeholder='Nombre' />
+  <input type=number id=iPoblacion placeholder='Población' />
+  <button id=btnCrear>Crear</button>
+
+  <div id=divEditar>
+    <input type=text id=iEditarNombre />
+    <input type=number id=iEditarPoblacion />
+    <button id=btnModificar>Modificar</button>
+    <a id=aCancelar>&#10006;</a>
+  </div>
+
+  <h2>Países</h2>
+  <div id=divLista></div>
+
+  <script src=js/script.js></script>
+</body>
+
+</html>
